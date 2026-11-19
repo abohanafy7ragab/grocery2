@@ -6,6 +6,6 @@ import 'package:grocery/screens/bottom_nav_bar_screen.dart';
 void main() async{
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
-);
+  );
   runApp(BottomNavBarScreen());
 }
